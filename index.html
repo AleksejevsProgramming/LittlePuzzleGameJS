@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" http-equiv="refresh" content="1">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="text">1 or 2?</div>
+  <ul class="fields">
+    <li><input id="txt1" type="text" oninput="myFunction_1()" maxlength="1" onkeyup="nextField(this, 'txt2')" onkeypress="return validate(event);" autofocus></li>
+    <li><input id="txt2" type="text" oninput="myFunction_2()" maxlength="1" onkeyup="nextField(this, 'txt3')" onkeypress="return validate(event);"></li>
+    <li><input id="txt3" type="text" oninput="myFunction_3()" maxlength="1" onkeyup="nextField(this, 'txt4')" onkeypress="return validate(event);"></li>
+    <li><input id="txt4" type="text" oninput="myFunction_4()" maxlength="1" onkeyup="nextField(this, 'txt5')" onkeypress="return validate(event);"></li>
+    <li><input id="txt5" type="text" oninput="myFunction_5()" maxlength="1" onkeyup="nextField(this, 'txt6')" onkeypress="return validate(event);"></li>
+    <li><input id="txt6" type="text" oninput="myFunction_6()" maxlength="1" onkeyup="nextField(this, 'txt7')" onkeypress="return validate(event);"></li>
+    <li><input id="txt7" type="text" oninput="myFunction_7()" maxlength="1" onkeyup="nextField(this, 'txt8')" onkeypress="return validate(event);"></li>
+    <li><input id="txt8" type="text" oninput="myFunction_8()" maxlength="1" onkeyup="nextField(this, 'txt9')" onkeypress="return validate(event);"></li>
+    <li><input id="txt9" type="text" oninput="myFunction_9()" maxlength="1" onkeyup="nextField(this, 'txt10')" onkeypress="return validate(event);"></li>
+    <li><input id="txt10" type="text" oninput="myFunction_10()" maxlength="1" onkeyup="nextField(this, 'txt11')" onkeypress="return validate(event);"></li>
+  </ul>
+  <div id="text_1"></div>
+
+<ul class="fields_2" id="inputs_2">
+  <li><input id="txt11" type="text" oninput="myFunction_11()" maxlength="1" onkeyup="nextField(this, 'txt12')"></li>
+  <li><input id="txt12" type="text" oninput="myFunction_12()" maxlength="1" onkeyup="nextField(this, 'txt13')"></li>
+  <li><input id="txt13" type="text" oninput="myFunction_13()" maxlength="1" onkeyup="nextField(this, 'txt14')"></li>
+  <li><input id="txt14" type="text" oninput="myFunction_14()" maxlength="1" onkeyup="nextField(this, 'txt15')"></li>
+  <li><input id="txt15" type="text" oninput="myFunction_15()" maxlength="1" onkeyup="nextField(this, 'txt16')"></li>
+  <li><input id="txt16" type="text" oninput="myFunction_16()" maxlength="1" onkeyup="nextField(this, 'txt17')"></li>
+  <li><input id="txt17" type="text" oninput="myFunction_17()" maxlength="1" onkeyup="nextField(this, 'txt18')"></li>
+  <li><input id="txt18" type="text" oninput="myFunction_18()" maxlength="1" onkeyup="nextField(this, 'txt19')"></li>
+</ul>
+<div id="text_2"></div>
+
+<ul class="fields_3" id="inputs_3">
+  <li><input id="txt19" type="text" oninput="myFunction_19()" maxlength="1" onkeyup="nextField(this, 'txt20')" onkeypress="return validate(event);"></li>
+  <li><input id="txt20" type="text" oninput="myFunction_20()" maxlength="1" onkeyup="nextField(this, 'txt21')" onkeypress="return validate(event);"></li>
+  <li><input id="txt21" type="text" oninput="myFunction_21()" maxlength="1" onkeyup="nextField(this, 'txt22')" onkeypress="return validate(event);"></li>
+  <li><input id="txt22" type="text" oninput="myFunction_22()" maxlength="1" onkeyup="nextField(this, 'txt23')" onkeypress="return validate(event);"></li>
+  <li><input id="txt23" type="text" oninput="myFunction_23()" maxlength="1" onkeyup="nextField(this, 'txt24')" onkeypress="return validate(event);"></li>
+  <li><input id="txt24" type="text" oninput="myFunction_24()" maxlength="1" onkeyup="nextField(this, 'txt25')" onkeypress="return validate(event);"></li>
+</ul>
+<div id="text_3"></div>
+
+<ul class="fields_4" id="inputs_4">
+  <li><input id="txt25" type="text" oninput="myFunction_25()" maxlength="1" onkeyup="nextField(this, 'txt26')" onkeypress="return validate(event);"></li>
+  <li><input id="txt26" type="text" oninput="myFunction_26()" maxlength="1" onkeyup="nextField(this, 'txt27')" onkeypress="return validate(event);"></li>
+  <li><input id="txt27" type="text" oninput="myFunction_27()" maxlength="1" onkeyup="nextField(this, 'txt28')" onkeypress="return validate(event);"></li>
+  <li><input id="txt28" type="text" oninput="myFunction_28()" maxlength="1" onkeyup="nextField(this, 'txt29')" onkeypress="return validate(event);"></li>
+</ul>
+<div id="text_4"></div>
+
+<ul class="fields_5" id="inputs_5">
+  <li><input id="txt29" type="text" oninput="myFunction_29()" maxlength="1" onkeyup="nextField(this, 'txt30')"></li>
+  <li><input id="txt30" type="text" oninput="myFunction_30()" maxlength="1"></li>
+</ul>
+<div id="text_5"></div>
+
+
+
+
+
+
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
